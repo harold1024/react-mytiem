@@ -1,5 +1,5 @@
 import React from "react" //解析jsx语法
-import {HashRouter as Router,Route,Redirect,Switch} from "react-router-dom";
+import {BrowserRouter as Router,Route,Redirect,Switch} from "react-router-dom";
 import Home from "../components/Home";
 import Buy from "../components/Buy";
 import Film from "../components/Film";
@@ -29,7 +29,7 @@ const router = (
 				}/>
 				
 				<Route path="/buy" component={Buy}/> 
-				<Route path="/detail/:id" component={Detail}/>
+				<Route path="/detail/" component={Detail}/>
 				<Route path="/shopping" component={Shopping}/>
 				<Route path="/proving" render={()=>
 					<Proving>
