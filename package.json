@@ -28,13 +28,6 @@
     "redux-thunk": "^2.3.0"
   },
   "proxy": {
-    "/Service": {
-      "target": "http://m.mtime.cn",
-      "get": "m.mtime.cn",
-      "changeOrigin": true
-    }
-  },
-  "proxy": {
     "/api": {
       "target": "http://ticket-m.mtime.cn",
       "get": "ticket-m.mtime.cn",

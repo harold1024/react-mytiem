@@ -1,5 +1,5 @@
 import React from "react" //解析jsx语法
-import {HashRouter as Router,Route,Redirect,Switch} from "react-router-dom";
+import {BrowserRouter as Router,Route,Redirect,Switch} from "react-router-dom";
 import Home from "../components/Home";
 import Buy from "../components/Buy";
 import Film from "../components/Film";
