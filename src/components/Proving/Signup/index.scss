@@ -1,0 +1,64 @@
+.signup{
+	width: 100%;
+	font-size: 18px;
+	color: #878787;
+	a{
+		text-decoration: none;
+		color: #388cdb;
+	}
+	div{
+		/*box-sizing: border-box;*/
+		width: 95%;
+		height: 60px;
+		border-top: 2px solid #eee;
+		line-height: 60px;
+		margin-left: 5%;
+		input{
+			border:1px solid #fff;
+			outline:none;
+			font-size: 18px;
+		}
+	}
+	.tel{
+		input{
+			width: 50%;
+			height: 45px;
+		}
+		a{
+			display: inline-block;
+			width: 28%;
+			height: 45px;
+			border:1px solid #8fbfeb;
+			line-height: 45px;
+			text-align: center;
+			border-radius: 22px;
+			
+
+		}
+	}
+	.password{
+		input{
+			width: 80%;
+			height: 45px;
+		}
+	}
+	.check{
+		input{
+			width: 20px;
+			height: 20px;
+			border:1px solid #ccc;
+			border-radius: 10px;
+		}
+	}
+	button{
+		width: 90%;
+		height: 60px;
+		margin-left: 5%;
+		margin-top: 20px;
+		background: #1e7dd7;
+		font-size: 26px;
+		color: #fff;
+		border-radius: 30px;
+		outline:none;
+	}
+}

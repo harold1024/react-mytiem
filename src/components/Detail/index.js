@@ -85,9 +85,14 @@ class Detail extends Component {
 				</dl>
         	</div>:null
         	}
-        	
-			
-        </div>
+      	</div>
+      	<div className="pic">
+      		<ul>
+      			<li>
+      				<img src={this.state.} alt=""/>
+      			</li>
+      		</ul>
+      	</div>
       </div>
     );
   }

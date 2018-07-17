@@ -23,9 +23,15 @@
     "eject": "react-scripts eject"
   },
   "proxy": {
+<<<<<<< HEAD
     "/Service": {
       "target": "https://m.mtime.cn",
       "host": "m.mtime.cn",
+=======
+    "/api": {
+      "target": "http://ticket-m.mtime.cn",
+      "get": "ticket-m.mtime.cn",
+>>>>>>> be0fd45ee504d8ca8aaaeed01d42af72c7d401ab
       "changeOrigin": true
     }
   }
