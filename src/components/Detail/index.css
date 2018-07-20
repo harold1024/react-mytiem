@@ -5,18 +5,33 @@
 a{
 	text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+body{
+	background: #f6f6f6;
+}
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 ul{
 	list-style: none;
 }
 #del{
 	width: 100%;
+<<<<<<< HEAD
+=======
+	height: 100%;
+	overflow: hidden;
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 }
 #del header{
 	height: 25%;
 	overflow: hidden;
 }
 #del header #back{
+<<<<<<< HEAD
+=======
+	background:url("http://img5.mtime.cn/mt/2018/07/13/144859.43677663_1280X720X2.jpg") no-repeat top center;
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 	width: 100%;
 	height: 180px;
 	overflow: hidden;
@@ -66,9 +81,15 @@ ul{
 	width: 100%;
 }
 #del section .connect{
+<<<<<<< HEAD
 /*	float: left;
 */}
 #del section .connect h2{
+=======
+	float: left;
+}
+#del section .connect h2:{
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 	color: white
 }
 #del section .connect h4{
@@ -120,10 +141,18 @@ ul{
 }
 #del section h3{
 	display: inline-block;
+<<<<<<< HEAD
 	margin-top: 20px;
 	color: #f60;
 	font-weight: 100;
 	margin: 0 100px;
+=======
+	position: relative;
+	left: -70px;
+	margin-top: 20px;
+	color: #f60;
+	font-weight: 100;
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 }
 #del section .fixed{
 	width: auto;
@@ -147,14 +176,18 @@ ul{
 	height: 40px;
 	overflow: hidden;
 	margin: 0 10px;
+<<<<<<< HEAD
 	line-height: 2;
 
+=======
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 }
 #del .less .more{
 	width: 95%;
 	background: white;
 	overflow: hidden;
 	margin: 0 10px;
+<<<<<<< HEAD
 	line-height: 2;
 }
 #del .less i{
@@ -162,12 +195,23 @@ ul{
 	width: 100%;
 	height: 20px;
 	display: inline-block;
+=======
+}
+#del .less i{
+	background: #fff url(//static1.mtime.cn/html5/20180621155013/images/2014/i-tmore.png) no-repeat center center;
+	width: 90px;
+	height: 20px;
+	display: block;
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 	margin: 0 auto;
 }
 #del .actor{
 	padding: 0 20px;
+<<<<<<< HEAD
 	background: white;
 	margin-top: 10px;
+=======
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 }
 #del .table{
 	display: flex;
@@ -187,6 +231,7 @@ ul{
     text-align: center;
     color: #333;
 }
+<<<<<<< HEAD
 #del .table dl:nth-of-type(2) ul li a{
 	width: 110px;
 	height: 110px;
@@ -300,4 +345,12 @@ ul{
     border: 1px solid #ff8600;
     text-align-last: center;
     border-radius: 40em;
+=======
+#del .table dl:nth-of-type(2) ul li img{
+	width: 110px;
+	height: 110px;
+}
+#del .table dl:nth-of-type(1) img{
+	width: 100%;
+>>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
 }
