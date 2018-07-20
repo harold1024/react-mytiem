@@ -8,8 +8,10 @@ import Comingsoon from "../components/Film/Comingsoon";
 import Nowplaying from "../components/Film/Nowplaying";
 import Shopping from "../components/Shopping";
 import Proving from "../components/Proving";
+import Search from "../components/Search";
 import Signin from "../components/Proving/Signin";
 import Signup from "../components/Proving/Signup";
+import Find from "../components/Find";
 import App from "../App";
 
 
@@ -29,8 +31,10 @@ const router = (
 				}/>
 				
 				<Route path="/buy" component={Buy}/> 
-				<Route path="/detail/:id" component={Detail}/>
+				<Route path="/detail/:myid/" component={Detail}/>
 				<Route path="/shopping" component={Shopping}/>
+				<Route path="/find" component={Find}/>
+				<Route path="/search" component={Search}/>
 				<Route path="/proving" render={()=>
 					<Proving>
 						<Switch>

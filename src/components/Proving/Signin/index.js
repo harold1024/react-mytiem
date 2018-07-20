@@ -13,11 +13,11 @@ class Signin extends Component {
 	     	<div className="signin">
 	       		<div>
 		       		<span className="iconfont icon-bussinessman"></span>
-		       		<input type="text" placeholder="登录邮箱/手机号码"/>
+		       		<input type="text" placeholder="登录邮箱/手机号码" ref="e-mail"/>
 		       	</div>
 		       	<div className="password">
 		       		<span className="iconfont icon-bags"></span>
-		       		<input type={this.state.isShow?"password":"text"} placeholder="密码"/>
+		       		<input type={this.state.isShow?"password":"text"} placeholder="密码" ref="password"/>
 		       		<span className="xianshi" onClick={
 		       			this.myevent.bind(this)
 		       		}>{this.state.isShow?"显示密码":"隐藏密码"}</span>

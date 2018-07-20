@@ -1,0 +1,81 @@
+
+#topnav{
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+}
+#topnav .list li{
+	line-height: 2;
+	list-style: none;
+	color: #333;
+	font-size: 18px;
+	font-weight: 800;
+}
+#topnav .pic img{
+	display: block;
+	border: 1px solid #ddd;
+	width: 80px;
+	cursor: pointer;
+	height: 127px;
+	margin: 0 17px;
+	padding: 0 0;
+
+}
+#topnav h4{
+	font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 15px;
+    font-weight: 100;
+}
+#topnav p{
+	padding: 10px 0 0;
+    width: 100px;
+    height: 37px;
+    overflow: hidden;
+    margin: auto;
+}
+#topnav .content{
+    padding: 5px 10px 0;
+	height: 377px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+
+}
+#topnav .content li{
+	margin: 5px;
+	float: left;
+    display: inline;
+    width: 20%;
+    text-align: center;
+}
+#topnav .point{
+	border-bottom: 1px solid #d8d8d8;
+    padding: 8px 0 8px 0;
+    width: 100%;
+    height: 128px;
+}
+#topnav .point img{
+	width: 35%;
+    height: 106px;
+    display: block;
+    float: left;
+}
+#topnav .hotpoint{
+	text-align: center;
+}
+#topnav .hotpoint a{
+	color: #333;
+	display: block;
+}
+#topnav .hotpoint .hotpointtext{
+	font-size: 16px;
+	color: #777;
+	font-weight: 100;
+}
+#topnav .icon{
+	float: right;
+	color: #777;
+	margin-right: 10px;
+}

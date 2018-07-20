@@ -1,0 +1,72 @@
+#find ul{
+	list-style: none;
+	display: block;
+	width: 100%;
+}
+#find .topbar a{
+	display: inline-block;
+	width: 25%;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	font-size: 18px;
+}
+#find .topbar a:hover{
+	color: #1e7dd7;
+    font-weight: bold;
+}
+#find .topic img{
+	width: 100%;
+    display: block;
+    position: relative;
+}
+#find .topic h2{
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 283px;
+    padding: 12px 0 12px;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+}
+#find .mynewslist{
+	height: 150px;
+	overflow: hidden;
+}
+#find .mynewslist h3{
+	height: 25px;
+	line-height: 20px;
+}
+#find .mynewslist .imgs{
+	height: 80px;
+	overflow: hidden;
+}
+#find .mynewslist img{
+	padding-top: 10px;
+    display: block;
+    height: auto;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin: 5px;
+}
+#find .mynewslist div{
+	height: 100px;
+}
+#find .mynewslist a{
+	font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+}
+#find .table li{
+	margin-left: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#find .mynewslist h4{
+	height: 25px;
+	padding-top: 5px; 
+}

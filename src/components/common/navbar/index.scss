@@ -1,0 +1,40 @@
+#navbar {
+	height: 50px;
+	width: 100%;
+	background: #1c2635;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#navbar .img{
+	height: 100%;
+	width: 20%;
+	float: left;
+}	
+#navbar ul{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+#navbar ul li{
+	width: 16%;
+}
+#navbar a{
+	color: #999;
+	margin-top: 12px;
+}
+#navbar a:hover{
+	color: #fff;
+	border-bottom: #fff 3px solid;
+	display: block;
+	height: 47px;
+}
+#navbar .img img{
+	width:100%;
+	height: 55%;
+	float: left;
+	padding-top: 12%;
+}

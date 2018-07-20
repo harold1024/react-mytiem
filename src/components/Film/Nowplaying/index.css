@@ -1,0 +1,87 @@
+#now {
+  margin-top: 50px; }
+
+#now .product {
+  padding-top: 20px;
+  height: 200px;
+  width: 100%; 
+  border-bottom: 1px solid #ccc;
+}
+
+#now .l {
+  display: block;
+  width: 40%;
+  height: 100%;
+  float: left; 
+}
+
+#now .r {
+  height: 100%;
+  width: 60%;
+  float: right;
+}
+
+#now .r h3 {
+  height: 50px;
+  display: flex;
+  justify-content: center; }
+
+#now .r h3 b {
+  font-size: 20px;
+  line-height: 50px; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#now .r h3 span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: green;
+  color: #fff;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 13px; }
+#now .commonSpecial{
+  color: green;
+  font-size: 14px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#now .Cinema span{
+    color:red;
+    border: none;
+}
+#now .Cinema{
+  font-size: 16px;
+}
+#now .ticket{ 
+  display: block;
+  width: 60px;
+  height: 30px;
+  background-color: #f60;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  float: right;
+  margin-right: 10px;
+}
+#now span{
+  width: 20px;
+  height: 10px;
+  border: 1px solid green;
+  color: green;
+  margin: 2px;
+  padding: 2px;
+  font-size: 10px;
+}
+#now p{
+  height: 25px;
+}
+#now .content{
+  height: 30px;
+}

@@ -1,0 +1,98 @@
+.shopping{
+	width: 100%;
+	.shopping-search{
+		width: 100%;
+		height: 60px;
+		background: #f6f6f6;
+		overflow: hidden;
+		margin-top:20px;
+		div{
+			width: 70%;
+			height: 45px;
+			background: #fff;
+			margin-left: 10%;
+			margin-top: 6px;
+			display: inline-block;
+			border-radius: 5px;
+			.icon-search{
+				font-size: 26px;
+				line-height: 45px;
+			}
+			input{
+				width: 80%;
+				height: 30px;
+				border:1px solid #fff;
+				font-size: 20px;
+				outline: none;
+			}
+		}
+		.icon-cart{
+			font-size: 40px;
+			line-height: 50px;
+			margin-left: 15px;
+		}
+	}
+	.reactswipe{
+		width: 100%;
+		li{
+			img{
+				width: 100%;
+				z-index: 100;
+			}
+		}
+	}
+	.navigatorIcon{
+		padding-top: 40px;
+		width: 100%;
+		li{
+			width: 25%;
+			display: inline-block;
+		}
+		a{
+			display: inline-block;
+			width: 100%;
+			height: 100px;
+			text-decoration: none;
+			position: relative;
+			img{
+				display: inline-block;
+				width: 50%;
+				position: absolute;
+				top:0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: 0 auto;
+			}
+			p{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				bottom: 10px;
+				color: #878787;
+			}
+		}
+	}
+	.backgg{
+		width: 100%;
+		margin-top: 40px;
+		.backggA{
+			width: 50%;
+			float: left;
+
+		}
+		li{
+			list-style: none;
+			width: 50%;
+			float: left;
+			img{
+				width: 100%;
+			}
+		}
+		.backggB{
+			width: 100%;
+		}
+
+
+	}
+}

@@ -30,11 +30,13 @@
   .signup .password input {
     width: 80%;
     height: 45px; }
-  .signup .check input {
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px; }
+  .signup .check {
+    font-size: 17px; }
+    .signup .check input {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #ccc;
+      border-radius: 20px; }
   .signup button {
     width: 90%;
     height: 60px;

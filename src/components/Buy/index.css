@@ -1,0 +1,79 @@
+/*div,ul,li,img,a{
+	padding: 0;
+	 margin: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}*/
+#buy{
+    width: 100%;
+}
+#buy .nav{
+/*	margin-left: 25px;
+*/	height: 47px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
+#buy .nav li{
+	float: left;
+	width: 120px;
+	height: 47px;
+	text-align: center;
+	cursor: pointer;
+}
+#buy .nav a{
+	color: #777;
+    width: 120px;
+    height: 10px;
+    line-height: 47px;
+}
+#buy .buylist{
+	position: relative;
+    margin-left: 6px;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+#buy .buylist p{
+	width: 100%;
+}
+#buy .buylist .cinamename{
+	display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    zoom: 1;
+    font-size: 20px;
+    line-height: 1;
+}
+#buy .buylist .address{
+	color: #777;
+    padding-right: 3px;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+}
+#buy .buylist .filmtype span{
+	display: inline-block;
+    position: relative;
+    height: 10px;
+    text-align: center;
+    margin-top: 4px;
+    margin-right: 3px;
+    padding: 7px 2px;
+    font-size: 15px;
+    line-height: 10px;
+    color: #6d8297;
+    border: 1px solid #6d8297;
+}
+#buy .buylist .minPrice{
+	color: #ff8600;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+#buy .buylist .minPrice span{
+	font-size: 20px;
+}

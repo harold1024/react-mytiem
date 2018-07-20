@@ -1,0 +1,77 @@
+  .one{
+    width: 100%;
+    background: black
+    
+  }
+  .one input{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  .one button{
+    height: 50px;
+    background: black;
+    opacity: .5;
+    width: 17%;
+    color: white;
+    border-radius: 20px;
+  }
+  .two{
+    width: 100%;
+    min-height: 300px;  
+  }
+  .two li{
+    width: 100%;
+    height: 180px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .two h3{
+    overflow: hidden;
+    width:80%;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .two .zj{
+    width: 70%;
+    float: left;
+    height: 180px;
+    text-indent: 15px;
+    
+  }
+  .two .zj p{
+    padding-top: 10px;
+  }
+  .two .zj p span{
+    color: #f60;
+  }
+  .two li img{
+    float: left;
+    width: 30%;
+    height: 180px;
+
+  }
+  .goupiao{
+    float:left;
+    height: 180px;
+    line-height: 180px;
+    width: 20%;
+    text-align: center;
+  }
+   .swipe iframe{
+  display: block;
+  width: 100%;
+  height: 115px;
+  border:0;
+}
+.hot a{
+  display: inline-block;
+    vertical-align: middle;
+    color: #1e7dd7;
+    padding: .6em 1.2em;
+    border: .1em solid #b6dcff;
+    border-radius: 3em;
+    margin: .95em -0.3em .5em 1em;
+}

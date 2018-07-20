@@ -1,0 +1,43 @@
+#now{
+	margin-top: 50px;
+}
+#now .product{
+	padding-top: 20px;
+	height: 200px;
+	width: 100%;
+}
+#now .l{
+	display: block;
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+#now .r{
+	height: 100%;
+	width: 60%;
+	float: right;
+		background: yellow;
+}
+#now .r h3{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+#now .r h3 b {
+	font-size: 20px;
+	line-height: 50px;
+}
+#now .r h3 span{
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: green;
+	color: #fff;
+	font-size: 10px;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+#now .commonSpecial{
+	height 20px;
+	color: green;
+}

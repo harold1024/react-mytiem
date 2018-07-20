@@ -1,0 +1,40 @@
+#film{
+	height: 30px;
+	width: 100%;
+	background: #1c2635;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+#film .left{
+	height: 100%;
+	width: 10%;
+	float: left;
+	color: #999;
+}
+#film .right{
+	width: 60%;
+	height: 100%;
+	margin-right: 20%;
+	float: right;
+	background: #0d121a;
+	border-radius: 15px;
+}
+#film li{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#film a{
+	display: block;
+	height:26px;
+	width: 96%;
+	color: #999;
+	margin: 2px;
+	line-height: 22px;
+}
+#film .active{
+	border-radius: 13px;
+	color: #fff;
+	background: #1c2635;
+}

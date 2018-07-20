@@ -1,0 +1,97 @@
+div,ul,li,img,a{
+	padding: 0;
+	margin: 0;
+}
+#comingsoon{
+	margin-top: 50px;
+}
+#comingsoon .l{
+	float: left;
+}
+
+#comingsoon .r{
+	float: right;
+	width: 200px;
+	height: 100%;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+#comingsoon .carousel{
+  background-color: #999;
+  height: 200px;
+  width: 100%;
+  z-index: 1;
+}
+#comingsoon .carousel img{
+	width: 100px;
+	height: 150px;
+	margin-left: 10px;
+	margin-top: 25px;
+}
+#comingsoon .root{
+	height: 50px;
+	display: flex;
+	justify-content: space-beteen;
+}
+#comingsoon .root a{
+	display: block;
+	height: 30px;
+	padding: 5px;
+	line-height: 30px;
+	float: left;
+	width: 100px;
+	border-radius: 30px;
+	background-color: #f60;
+	color: #fff;
+}
+#comingsoon .root .green{
+	border:1px solid green;
+	color: green;
+	background-color: #fff;
+}
+#comingsoon .content{
+	margin-top: 10px;
+	background-color: #fff;
+	text-align: center;
+}
+#comingsoon .content .title{
+	font-size: 20px;
+	color: #000;
+	height: 50px;
+	line-height: 50px;
+}
+#comingsoon .content .title span{
+	color: #ccc;
+}
+#comingsoon .content img{
+	display: block;
+	width: 78px;
+	height: 117px;
+	margin-top: 30px;
+}
+#comingsoon .content .tiao{
+	display: flex;
+	jutify-content: space-between;
+	height: 180px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+#comingsoon .article{
+	text-align: center;
+}
+#comingsoon .content .shu{
+	height: 20px;
+	width: 50px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+ 	line-height: 20px;
+ 	margin-top: 30px;
+	background-color: green;
+}
+#comingsoon .content .shu span{
+	display: block;
+	width: 10px;
+	height: 50px;
+	background-color: red;
+}

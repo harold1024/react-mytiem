@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+#del{
+	width: 100%;
+}
+#del header{
+	height: 25%;
+	overflow: hidden;
+}
+#del header #back{
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
+    background-color: #4c4c4c;
+    position: relative;
+    top: -45px;
+    z-index: -1;
+    background-size: 100% auto;
+    filter: blur(10px);
+    display: inline-block;
+}
+#del header .center a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	z-index: 2;
+	opacity: .8
+}
+#del header .center a i{
+	font-size: 30px;
+}
+#del header .center a:nth-of-type(1){
+	float: left;
+}
+#del header .center a:nth-of-type(2){
+	float: right;
+}
+#del header .center a:nth-of-type(3){
+	float: right;
+}
+#del section{
+	height: 230px;
+	position: relative;
+	top: -120px;
+}
+#del section .img{
+	width: 140px;
+	border: 2px solid #fff;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#del section .img img{
+	width: 100%;
+}
+#del section .connect{
+/*	float: left;
+*/}
+#del section .connect h2{
+	color: white
+}
+#del section .connect h4{
+	color: white
+}
+#del section .connect p{
+	line-height: 2
+}
+#del section .connect i{
+	background: #659d0e;
+    display: block;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    text-align: center;
+    line-height: 2.8em;
+    position: absolute;
+    right: 30px;
+    top: 8%;
+    margin-top: 1.9em;
+    color: white
+}
+#del aside{
+	margin-top: .55em;
+    width: auto;
+    display: block;
+}
+#del aside a:nth-of-type(1){
+	width: 80px;
+	display: inline-block;
+    margin-right: 10px;
+    padding: 10px 0;
+    border: 1px solid #999;
+    color: #777;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#del aside a:nth-of-type(2){
+	width: 80px;
+	display: inline-block;
+    margin-right: 10px;
+    padding: 10px 0;
+    border: 1px solid #659c0d;
+    color: #659c0d;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#del section h3{
+	display: inline-block;
+	margin-top: 20px;
+	color: #f60;
+	font-weight: 100;
+	margin: 0 100px;
+}
+#del section .fixed{
+	width: auto;
+    display: block;
+    padding: .8em 0;
+    margin: 1.45em 1.5em 1.1em;
+    background: #ff8600;
+    color: #fff;
+    border: 1px solid #ff8600;
+    text-align-last: center;
+    border-radius: 40em;
+}
+#del section .fixed a{
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+#del .less .change{
+	width: 100%;
+	background: white;
+	height: 40px;
+	overflow: hidden;
+	margin: 0 10px;
+	line-height: 2;
+
+}
+#del .less .more{
+	width: 95%;
+	background: white;
+	overflow: hidden;
+	margin: 0 10px;
+	line-height: 2;
+}
+#del .less i{
+	background: #fff url(//static1.mtime.cn/html5/20180621155013/images/2014/i-tmore.png) no-repeat center center;
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	margin: 0 auto;
+}
+#del .actor{
+	padding: 0 20px;
+	background: white;
+	margin-top: 10px;
+}
+#del .table{
+	display: flex;
+}
+#del .table dl:nth-of-type(1){
+	width: 25%;
+
+}
+#del .table dl:nth-of-type(1){
+	width: 75%;
+}
+#del .table dl:nth-of-type(2) ul{
+	display: flex;
+}
+#del .table dl:nth-of-type(2) ul li{
+	width: 8.5em;
+    text-align: center;
+    color: #333;
+}
+#del .table dl:nth-of-type(2) ul li a{
+	width: 110px;
+	height: 110px;
+	display: block;
+	overflow: hidden;
+}
+#del .table dl:nth-of-type(2) ul li a img{
+	width: 100%;
+}
+#del .table dl:nth-of-type(1) img{
+	width: 100%;
+}
+#del .pic{
+	padding: 0 20px;
+	background: white;
+	margin-top: 20px;
+}
+#del .pic ul{
+	display: flex;
+}
+#del .pic ul li{
+	width: 25%;
+	padding: 10px 2px;
+}
+#del .pic ul li img{
+	width: 100%;
+}
+#del .active{
+	padding: 0 20px;
+	background: white;
+	margin-top: 20px;
+}
+#del .active p{
+	line-height: 1.5;
+	font-size: 18px;
+	padding: 10px 0 10px 0;
+}
+#del .person img{
+	border-radius: 50px;
+	width: 50px;
+	float: left;
+}
+#del .person i{
+	background: #659d0e;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    text-align: center;
+    line-height: 2.8em;
+    margin-top: 1.9em;
+    color: white;
+    position: relative;
+    top: -70px;
+}
+#del .swipe iframe{
+	display: block;
+	width: 100%;
+	height: 115px;
+	border:0;
+}
+#del .message{
+	padding: 1.5em 0 1.5em 1.5em;
+    margin-bottom: 0;
+}
+#del .message ul li{
+	padding: 1.5em 0 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+#del .message ul li .text{
+	display: flex;
+}
+#del .message ul li img{
+	margin-right: 1.3em;
+    width: 4em;
+    height: 4em;
+    overflow: hidden;
+    border-radius: 4.1em;
+}
+#del .message ul li dl{
+	padding: 0 1.5em 0 0;
+	width: 70%;
+}
+#del .message ul li dt{
+	color: #999;
+    line-height: 1.8;
+    margin: 0 0 .5em 0;
+}
+#del .message ul li dd:nth-of-type(2){
+	text-align: right;
+}
+#del .message ul li dd:nth-of-type(2) a{
+	text-decoration: none;
+	color: #777;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1em;
+    padding: 1em 0 1.5em;
+}
+.isFixed{
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: auto;
+    display: block;
+    padding: .8em 0;
+    margin: 1.45em 1.5em 1.1em;
+    background: #ff8600;
+    color: #fff;
+    border: 1px solid #ff8600;
+    text-align-last: center;
+    border-radius: 40em;
+}

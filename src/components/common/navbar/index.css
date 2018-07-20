@@ -1,0 +1,78 @@
+#navbar {
+  z-index: 11;
+  height: 50px;
+  width: 100%;
+  background: #1c2635;
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+#navbar .img {
+  margin-top: 7px;
+  height: 70%;
+  width: 20%;
+  float: left;
+  background: url(./images/logo_mtime.png) no-repeat ;
+  background-size: 82px auto; }
+
+#navbar .list {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  text-align: center;
+  float: left; }
+
+#navbar .list .todo {
+  width: 16%; }
+
+#navbar .list .todo a {
+  color: #999;
+  margin-top: 12px;
+   }
+
+
+
+#navbar .img .logo{
+  width: 100%;
+  height: 55%;
+  float: left;
+  padding-top: 12%;
+   }
+.adress{
+
+}
+.beijing{
+  margin-left: 28px;
+  margin-top: 13px;
+}
+.adress p a{
+  text-decoration: none;
+  color: #ccc;
+}
+.adress p{
+    border:1px solid #ccc;
+    font-size: 12;
+    height: 24px;
+    line-height: 1.2;
+    padding: 11px 43px 5px 34px;
+    border-radius: 5px;
+    background: url(//static1.mtime.cn/html5/20180621155013/images/2014/search_ico_01.png) no-repeat 10px center;
+    background-size: 20px ;
+    position: relative;
+    top: 20px;
+    z-index: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.beijing i{
+  width: 9px;
+    height: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background: url(//static1.mtime.cn/html5/20180621155013/images/2014/i_city.png) no-repeat;
+}
+.positioning{
+  height: 100%;
+  margin-left: 2%;
+}
