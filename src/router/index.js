@@ -31,11 +31,9 @@ const router = (
 				}/>
 				
 				<Route path="/buy" component={Buy}/> 
-<<<<<<< HEAD
+
 				<Route path="/detail/:myid/" component={Detail}/>
-=======
-				<Route path="/detail/" component={Detail}/>
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 				<Route path="/shopping" component={Shopping}/>
 				<Route path="/find" component={Find}/>
 				<Route path="/search" component={Search}/>

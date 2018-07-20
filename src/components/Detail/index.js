@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './index.css';
 import axios from "axios";
-<<<<<<< HEAD
+
 import Footbar from '../common/footbar/index.js';
 
-=======
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 
 class Detail extends Component {
 	constructor(props) {
@@ -13,16 +12,14 @@ class Detail extends Component {
 	
 	  this.state = {
 	  	list:[],
-<<<<<<< HEAD
+
 	  	isShow:true,
 	  	back:"",
 	  	activeList:[],
 	  	swipe:[],
 	  	message:[],
 	  	searchBarFixed:true
-=======
-	  	isShow:true
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 	  };
 	}
   render() {
@@ -34,11 +31,9 @@ class Detail extends Component {
 					<a href=""><i className="iconfont icon-back"></i></a>
 					<a href=""><i className="iconfont icon-share"></i></a>
 					<a href=""><i className="iconfont icon-favorite"></i></a>
-<<<<<<< HEAD
+
 					<div id="back" style={{background:this.state.back}}></div>
-=======
-					<div id="back"></div>
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 				</div>
 				<section>
 					<div className="img">
@@ -59,11 +54,9 @@ class Detail extends Component {
 						</div>:null
 					}
 					<h3>{this.state.list.commonSpecial}</h3>
-<<<<<<< HEAD
+
 					<div className={this.state.searchBarFixed?"fixed":"isFixed"} onScroll={this.scroll.bind(this)}>
-=======
-					<div className="fixed">
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 						<a href=""><span>查影讯/购票</span></a>
 					</div>
 				</section>
@@ -93,20 +86,16 @@ class Detail extends Component {
 					<dd>
 						<ul>
 							<li>
-<<<<<<< HEAD
+
 								<a href=""><img src={this.state.list.actorList[0].actorImg} alt=""/></a>
-=======
-								<img src={this.state.list.actorList[0].actorImg} alt=""/>
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 								<p>{this.state.list.actorList[0].actor}</p>
 								<p>{this.state.list.actorList[0].actorEn}</p>
 							</li>
 							<li>
-<<<<<<< HEAD
+
 								<a href=""><img src={this.state.list.actorList[1].actorImg} alt=""/></a>
-=======
-								<img src={this.state.list.actorList[1].actorImg} alt=""/>
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 								<p>{this.state.list.actorList[1].actor}</p>
 								<p>{this.state.list.actorList[1].actorEn}</p>
 							</li>
@@ -117,7 +106,7 @@ class Detail extends Component {
         	}
       	</div>
       	<div className="pic">
-<<<<<<< HEAD
+
       		<h2>{this.state.list.imageCount}张图片</h2>
       		
 				{
@@ -199,19 +188,12 @@ class Detail extends Component {
 				
 		      </div>
 		      <Footbar></Footbar>
-=======
-      		<ul>
-      			<li>
-      				<img src={this.state.} alt=""/>
-      			</li>
-      		</ul>
-      	</div>
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
       </div>
     );
   }
   componentDidMount(){
-<<<<<<< HEAD
+
 	axios.get(`/Service/callback.mi/movie/Detail.api?movieId=${this.props.match.params.myid}&locationId=290&t=2018717835526507`).then(res=>{
 		this.setState({
 			list:res.data,
@@ -234,21 +216,14 @@ class Detail extends Component {
 		})
 	})
 
-=======
-	axios.get(`/Service/callback.mi/movie/Detail.api?movieId=223748&locationId=290&t=2018717835526507`).then(res=>{
-		this.setState({
-			list:res.data
-		})
-		console.log(res.data.release.date)
-	})
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
   }
   headleClick(){
   	this.setState({
   		isShow:!this.state.isShow
   	})
   }
-<<<<<<< HEAD
+
   scroll(){
 	var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
  			// console.log(scrollTop);
@@ -264,8 +239,7 @@ class Detail extends Component {
  				})
  			}
   }
-=======
->>>>>>> 960be32fb3938608933fe59dce1ff8b95786af6d
+
 }
 
 export default Detail;
